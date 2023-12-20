@@ -1,0 +1,102 @@
+body{
+    background-color:rgba(41,190,87,0.7);
+    text-align:center; 
+  }
+  h1{
+    font-size:3rem;
+  }
+  header{
+    font-family:'DM Serif Display',sans-serif;
+    word-spacing:0.2em;
+    margin-top:5%;
+  }
+  .info{
+    color:whitesmoke;
+  }
+  main{
+    width:60rem;
+    height:20rem;
+    background-color:rgba(230,202,153,255);
+    text-align:center;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding-bottom:1%;
+    font-size:1rem;
+    border:0.8rem solid black;
+    font-family:'Exo 2',sans-serif;
+    
+  }
+  .name{
+    border-bottom:4px solid white;
+  }
+  
+  input{
+    border:none;
+    outline:none;
+    border-bottom:5px solid white;
+    width:10rem;
+    text-align:center;
+    background-color:rgba(230,202,153,255);
+    font-size:1rem;
+    font-family:'Exo 2',sans-serif;
+  }
+  .btn{
+    margin-top:1%;
+    width:15rem;
+    height:auto;
+    font-size:1.5rem;
+    transition:0.2s;
+    font-family:'DM Serif Display',sans-serif;
+  }
+  .btn:hover{
+    box-shadow:5px 5px 5px gray;
+    transform:translateY(-5px);
+    transition:0.2s;
+    cursor:pointer;
+  }
+  
+  .duckntext{
+    display:flex;
+    justify-content:center;
+    margin-top:1%;
+    border-top:2px solid white;
+    padding-top:2%;
+  }
+  .duck{
+    width:5rem;
+    height:auto;
+    transition:0.3s;
+  }
+  .text-box{
+    width:30rem;
+    height:2rem;
+    background-color:#ff4b54;
+    border-radius:20%;
+  }
+  .duck-text{
+    font-size:1.1rem;
+    margin:0 auto;
+    text-align:center;
+    justify-content:center;
+    font-family: 'Happy Monkey', cursive;
+    color:white;
+  }
+  .duck:hover{
+    transform:translateY(-2rem);
+    transition:0.3s;
+    cursor:pointer;
+  }
+  
+  
+  .no-spinner::-webkit-inner-spin-button,
+  .no-spinner::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      appearance: none;
+      margin: 0; 
+  }
+  
+  .hide{
+    display:none;
+  }
